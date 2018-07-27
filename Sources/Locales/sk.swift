@@ -1,3 +1,8 @@
+extension Locales {
+  // swiftlint:disable all
+  static var sk: String {
+    return
+"""
 {
   "sk": {
     "faker": {
@@ -4476,5 +4481,8 @@
         ]
       }
     }
+  }
+}
+"""
   }
 }

@@ -1,3 +1,8 @@
+extension Locales {
+  // swiftlint:disable all
+  static var en_GB: String {
+    return
+"""
 {
   "en-GB": {
     "faker": {
@@ -127,5 +132,8 @@
         ]
       }
     }
+  }
+}
+"""
   }
 }

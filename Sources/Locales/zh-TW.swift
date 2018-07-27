@@ -1,3 +1,8 @@
+extension Locales {
+  // swiftlint:disable all
+  static var zh_TW: String {
+    return
+"""
 {
   "zh-TW": {
     "faker": {
@@ -1059,5 +1064,8 @@
         ]
       }
     }
+  }
+}
+"""
   }
 }

@@ -15,11 +15,6 @@ final class ProviderSpec: QuickSpec {
         it ("is initialized") {
           expect(provider).notTo(beNil())
         }
-
-        it ("has empty translations dictionary") {
-          expect(provider.translations).notTo(beNil())
-          expect(provider.translations.count).to(equal(0))
-        }
       }
 
       describe("#dataForLocale") {

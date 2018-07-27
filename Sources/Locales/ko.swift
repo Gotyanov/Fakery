@@ -1,3 +1,8 @@
+extension Locales {
+  // swiftlint:disable all
+  static var ko: String {
+    return
+"""
 {
   "ko": {
     "faker": {
@@ -346,5 +351,8 @@
         ]
       }
     }
+  }
+}
+"""
   }
 }

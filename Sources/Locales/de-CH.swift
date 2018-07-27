@@ -1,3 +1,8 @@
+extension Locales {
+  // swiftlint:disable all
+  static var de_CH: String {
+    return
+"""
 {
   "de-CH": {
     "faker": {
@@ -73,5 +78,8 @@
         ]
       }
     }
+  }
+}
+"""
   }
 }

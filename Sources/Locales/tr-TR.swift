@@ -1,3 +1,8 @@
+extension Locales {
+  // swiftlint:disable all
+  static var tr_TR: String {
+    return
+"""
 {
     "tr": {
         "faker": {
@@ -2699,4 +2704,7 @@
             }
         }
     }
+}
+"""
+  }
 }
